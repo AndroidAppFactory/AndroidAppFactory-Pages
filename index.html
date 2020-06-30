@@ -1645,7 +1645,7 @@ if (typeof exports === 'object') {
                     // only insert the selected number of paragraphs; default 3
                     var num_preview_elements = parseInt(text.substring(8), 10) ||3;
                     var $preview = selectPreviewElements ($html, num_preview_elements);
-                    $preview.last().append('<a href="' + href +'"> ...查看更多内容 &#10140;</a>');
+                    $preview.last().append('<a href="#!' + href +'"> ...查看更多内容 &#10140;</a>');
                     $preview.insertBefore($el.parent('p').eq(0));
                     $el.remove();
                 } else {
