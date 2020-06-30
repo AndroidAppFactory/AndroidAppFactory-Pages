@@ -3,7 +3,7 @@
 [简介]()
 
  * # 关于项目
- * [概述](README.md)
+ * [概述](#!https://raw.githubusercontent.com/bihe0832/AndroidAppFactory/master/README.md)
  - - - -
  * # 关于作者
  * [子勰博客](https://blog.bihe0832.com/)
