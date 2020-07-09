@@ -4,6 +4,7 @@
 
  * # 关于项目
  * [概述](#!https://raw.githubusercontent.com/bihe0832/AndroidAppFactory/master/README.md)
+ * [组件开发](doc/dev.md)
  - - - -
  * # 关于作者
  * [子勰博客](https://blog.bihe0832.com/)
