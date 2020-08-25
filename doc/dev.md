@@ -8,22 +8,65 @@
 	
 	- 版本库：https://github.com/bihe0832/AndroidAppFactory.git
 
-3. 上传组件 
+3. 执行命令`./gradlew clean ` 生成组件发布命令。例如：
 
-4. 把组件添加的依赖添加到 LibUtils （或LibUIUtils）和 LibWrapper 并构建新版本
+	```
+	➜  AndroidAppFactory git:(master) ✗ ./gradlew clean
+	Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=1g; support was removed in 8.0
+	
+	……	
+	
+	当前开发的组件开发修改版本号后，直接在根目录运行下面的命令即可发布所有依赖到最新版本
+	
+	运行后升级版本的组件有：
+	
+	        [LibWrapper]
+	
+	发布使用的命令：
+	
+	
+	echo "
+	LibWrapper
+	"  | xargs -I {} /bin/bash ./build_upload.sh {} 2.0.18
+	
+	
+	========================================
+	
+	……
+	```
 
-5. 在 APPTest 同时引入 LibWrapper的源码和最新依赖，在根目录运行
+4. 在命令行输入生成的命令，完成组件发布
 
-		./gradlew clean 
 
 ## 组件更新
 
 1. 完成本地开发
 
-2. 在 LibWrapper 更新到最新版，然后，在根目录运行
+2. 执行命令`./gradlew clean ` 生成组件发布命令。例如：
 
-		./gradlew clean 
+	```
+	➜  AndroidAppFactory git:(master) ✗ ./gradlew clean
+	Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=1g; support was removed in 8.0
+	
+	……	
+	
+	当前开发的组件开发修改版本号后，直接在根目录运行下面的命令即可发布所有依赖到最新版本
+	
+	运行后升级版本的组件有：
+	
+	        [LibWrapper]
+	
+	发布使用的命令：
+	
+	
+	echo "
+	LibWrapper
+	"  | xargs -I {} /bin/bash ./build_upload.sh {} 2.0.18
+	
+	
+	========================================
+	
+	……
+	```
 
-3. 根据提示，升级依赖该组件的组件的版本
-
-4. 依次重复 2 和 3 直到所有组件 版本不冲突且最新，更新 LibWrapper 版本
+3. 在命令行输入生成的命令，完成组件发布

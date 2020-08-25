@@ -3,16 +3,21 @@
 [简介]()
 
  * # 关于项目
- * [概述](#!https://raw.githubusercontent.com/bihe0832/AndroidAppFactory/master/README.md)
- * [组件开发](doc/dev.md)
+ * [方案概述](#!https://raw.githubusercontent.com/bihe0832/AndroidAppFactory/master/README.md)
+ * [方案详述](https://blog.bihe0832.com/android-dev-summary.html)
  - - - -
  * # 关于作者
  * [子勰博客](https://blog.bihe0832.com/)
  * [Github](https://github.com/bihe0832)
 
-[使用方式](start.md)
+[组件开发]()
 
-[组件列表](doc/liblist.md)
+ * [组件开发与发布](doc/dev.md)
+ * [组件依赖管理](https://blog-oversea.bihe0832.com/android-dev-module-denpendencies.html)
+
+[组件使用](start.md)
+
+[组件介绍](doc/liblist.md)
 
 <!-- [组件集](doc/liblist.md)
 
