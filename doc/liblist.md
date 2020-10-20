@@ -44,17 +44,6 @@
 
 		implementation 'com.bihe0832.android:lib-router-annotation:+'
 	
-![Router](https://img.shields.io/badge/AndroidAppFactory-Router-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-router/images/download.svg) ](https://bintray.com/bihe0832/android/lib-router/_latestVersion)
-
-- 简介：
-
-	通用路由的核心库
-	
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-router:+'
-
-
 ![RouterCompiler](https://img.shields.io/badge/AndroidAppFactory-RouterCompiler-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-router-compiler/images/download.svg) ](https://bintray.com/bihe0832/android/lib-router-compiler/_latestVersion)
 
 - 简介：
@@ -64,6 +53,15 @@
 - 使用：
 
 		kapt "com.bihe0832.android:lib-router-compiler:+"
+![Router](https://img.shields.io/badge/AndroidAppFactory-Router-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-router/images/download.svg) ](https://bintray.com/bihe0832/android/lib-router/_latestVersion)
+
+- 简介：
+
+	通用路由的核心库
+	
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-router:+'
 
 ![LibAndroid](https://img.shields.io/badge/AndroidAppFactory-LibAndroid-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-android/images/download.svg) ](https://bintray.com/bihe0832/android/lib-android/_latestVersion)
 
@@ -76,6 +74,27 @@
 		implementation 'com.bihe0832.android:lib-android:+'
 
 
+![LibLog](https://img.shields.io/badge/AndroidAppFactory-LibLog-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-log/images/download.svg) ](https://bintray.com/bihe0832/android/lib-log/_latestVersion)
+
+- 简介：
+
+	简单封装的日志工具类
+
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-log:+'
+
+![LibOS](https://img.shields.io/badge/AndroidAppFactory-LibOS-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-android-os/images/download.svg) ](https://bintray.com/bihe0832/android/lib-android-os/_latestVersion)
+
+- 简介：
+
+	系统源码直接引用
+
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-android-os:+'
+
+
 ![LibCommonUtils](https://img.shields.io/badge/AndroidAppFactory-LibCommonUtils-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-utils-common/images/download.svg) ](https://bintray.com/bihe0832/android/lib-utils-common/_latestVersion)
 
 - 简介：
@@ -85,7 +104,212 @@
 - 使用：
 
 		implementation 'com.bihe0832.android:lib-utils-common:+'
+
+![LibThread](https://img.shields.io/badge/AndroidAppFactory-LibThread-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-thread/images/download.svg) ](https://bintray.com/bihe0832/android/lib-thread/_latestVersion)
+
+- 简介：
+
+    线程管理模块，提供了不同优先级（系统级别的优先级）的线程（HandlerThread）及一个有五个线程的线程池
+    
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-thread:+'
+
+![LibEncrypt](https://img.shields.io/badge/AndroidAppFactory-LibEncrypt-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-encrypt/images/download.svg) ](https://bintray.com/bihe0832/android/lib-encrypt/_latestVersion)
+
+- 简介：
+    
+    AES加密，MD5计算，进制转化
+
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-encrypt:+'
+
+![LibChannel](https://img.shields.io/badge/AndroidAppFactory-LibChannel-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-channel/images/download.svg) ](https://bintray.com/bihe0832/android/lib-channel/_latestVersion)
+
+- 简介：
+
+	渠道号相关，主要是读取渠道号。目前渠道号写在assets下的channel.ini文件
+	
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-channel:+'
 		
+![LibRequest](https://img.shields.io/badge/AndroidAppFactory-LibRequest-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-request/images/download.svg) ](https://bintray.com/bihe0832/android/lib-request/_latestVersion)
+
+- 简介：
+    
+    请求参数处理，URL校验、合并等
+    
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-request:+'
+
+![LibGson](https://img.shields.io/badge/AndroidAppFactory-LibGson-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-gson/images/download.svg) ](https://bintray.com/bihe0832/android/lib-gson/_latestVersion)
+
+- 简介：
+
+    基于Gson封装的类型安全的转换方法
+
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-gson:+'
+
+
+![LibHttpCommon](https://img.shields.io/badge/AndroidAppFactory-LibHttpCommon-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-http-common/images/download.svg) ](https://bintray.com/bihe0832/android/lib-http-common/_latestVersion)
+
+- 简介：
+
+    一款封装HttpURLConnection实现的简单的网络请求的事例，没有做任何处理，将网络请求的内容以String返回
+
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-http-common:+'
+
+![LibHttpAdvanced](https://img.shields.io/badge/AndroidAppFactory-LibHttpAdvanced-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-http-advanced/images/download.svg) ](https://bintray.com/bihe0832/android/lib-http-advanced/_latestVersion)
+
+- 简介：
+
+    一款封装HttpURLConnection实现的简单的网络请求的事例，会完成网络请求结果的解析，最终网络请求结果（Json）会被处理为对应数据类型
+
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-http-advanced:+'
+    
+    
+![LibSqlite](https://img.shields.io/badge/AndroidAppFactory-LibSqlite-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-sqlite/images/download.svg) ](https://bintray.com/bihe0832/android/lib-sqlite/_latestVersion)
+
+- 简介：
+
+    Sqlite封装，同时提供了一个key-value的基本数据库
+
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-sqlite:+'
+
+![LibDeviceNetwork](https://img.shields.io/badge/AndroidAppFactory-LibDeviceNetwork-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-device-network/images/download.svg) ](https://bintray.com/bihe0832/android/lib-device-network/_latestVersion)
+
+- 简介：
+
+    设备基本信息和网络相关信息的工具库
+
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-device-network:+'
+
+
+![LibTimer](https://img.shields.io/badge/AndroidAppFactory-LibTimer-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-timer/images/download.svg) ](https://bintray.com/bihe0832/android/lib-timer/_latestVersion)
+
+- 简介：
+
+    基于Timer封装的定时器
+    
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-timer:+'
+
+![LibConfig](https://img.shields.io/badge/AndroidAppFactory-LibConfig-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-config/images/download.svg) ](https://bintray.com/bihe0832/android/lib-config/_latestVersion)
+
+- 简介：
+
+	配置管理相关，支持读取本地配置文件、支持配置保存本地
+	
+- 使用：
+		implementation 'com.bihe0832.android:lib-config:+'
+	
+![LibAPK](https://img.shields.io/badge/AndroidAppFactory-LibAPK-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-utils-apk/images/download.svg) ](https://bintray.com/bihe0832/android/lib-utils-apk/_latestVersion)
+
+- 简介：
+
+    检查应用安装，获取应用数据，打开APP等发送各类Intent
+    
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-utils-apk:+'
+
+![LibTTS](https://img.shields.io/badge/AndroidAppFactory-LibTTS-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-tts/images/download.svg) ](https://bintray.com/bihe0832/android/lib-tts/_latestVersion)
+
+- 简介：
+
+    文字转语音组件的封装
+
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-tts:+'
+
+
+![LibFile](https://img.shields.io/badge/AndroidAppFactory-LibFile-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-file/images/download.svg) ](https://bintray.com/bihe0832/android/lib-file/_latestVersion)
+
+- 简介：
+
+    提供Provider的方式访问文件以及对于文件的一些基本操作，例如获取文件名，扩展名等
+
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-file:+'
+
+![LibZip](https://img.shields.io/badge/AndroidAppFactory-LibZip-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-zip/images/download.svg) ](https://bintray.com/bihe0832/android/lib-zip/_latestVersion)
+
+- 简介：
+
+    提供ZIP 文件的压缩和解压缩
+
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-zip:+'
+
+	
+![LibDownloadAndInstall](https://img.shields.io/badge/AndroidAppFactory-LibDownloadAndInstall-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-download-install/images/download.svg) ](https://bintray.com/bihe0832/android/lib-download-install/_latestVersion)
+
+- 简介：
+
+    简单的下载和唤起应用安装
+
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-download-install:+'
+		
+![LibText](https://img.shields.io/badge/AndroidAppFactory-LibText-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-text/images/download.svg) ](https://bintray.com/bihe0832/android/lib-text/_latestVersion)
+
+- 简介：
+
+    文字处理的基础工具库，入分割字符串，特殊字符串等
+
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-text:+'
+		
+![LibSuperAPP](https://img.shields.io/badge/AndroidAppFactory-LibSuperAPP-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-super-app/images/download.svg) ](https://bintray.com/bihe0832/android/lib-super-app/_latestVersion)
+
+- 简介：
+
+    超级APP相关的工具类，例如一键拉起QQ群，引导关注公众号等
+
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-super-app:+'
+		
+	
+![LibDebug](https://img.shields.io/badge/AndroidAppFactory-LibDebug-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-debug/images/download.svg) ](https://bintray.com/bihe0832/android/lib-debug/_latestVersion)
+
+- 简介：
+
+    应用调试相关的通用工具，例如分享调试信息等
+
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-debug:+'
+		
+![LibCommonUIUtils](https://img.shields.io/badge/AndroidAppFactory-LibCommonUIUtils-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-ui-common/images/download.svg) ](https://bintray.com/bihe0832/android/lib-ui-common/_latestVersion)
+
+- 简介：
+
+    资源反射等所有UI相关的基础控件
+
+- 使用：
+
+		implementation 'com.bihe0832.android:lib-ui-common:+'
+        
 ![LibFragmentation_core](https://img.shields.io/badge/AndroidAppFactory-LibFragmentation_core-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-fragmentation-core/images/download.svg) ](https://bintray.com/bihe0832/android/lib-fragmentation-core/_latestVersion)
 
 - 简介：
@@ -167,106 +391,7 @@
 
 		implementation 'com.bihe0832.android:lib-refresh:+'
         
-![LibThread](https://img.shields.io/badge/AndroidAppFactory-LibThread-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-thread/images/download.svg) ](https://bintray.com/bihe0832/android/lib-thread/_latestVersion)
-
-- 简介：
-
-    线程管理模块，提供了不同优先级（系统级别的优先级）的线程（HandlerThread）及一个有五个线程的线程池
-    
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-thread:+'
-
-![LibEncrypt](https://img.shields.io/badge/AndroidAppFactory-LibEncrypt-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-encrypt/images/download.svg) ](https://bintray.com/bihe0832/android/lib-encrypt/_latestVersion)
-
-- 简介：
-    
-    AES加密，MD5计算，进制转化
-
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-encrypt:+'
-
-![LibChannel](https://img.shields.io/badge/AndroidAppFactory-LibChannel-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-channel/images/download.svg) ](https://bintray.com/bihe0832/android/lib-channel/_latestVersion)
-
-- 简介：
-
-	渠道号相关，主要是读取渠道号。目前渠道号写在assets下的channel.ini文件
 	
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-channel:+'
-		
-![LibRequest](https://img.shields.io/badge/AndroidAppFactory-LibRequest-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-request/images/download.svg) ](https://bintray.com/bihe0832/android/lib-request/_latestVersion)
-
-- 简介：
-    
-    请求参数处理，URL校验、合并等
-    
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-request:+'
-
-![LibHttpCommon](https://img.shields.io/badge/AndroidAppFactory-LibHttpCommon-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-http-common/images/download.svg) ](https://bintray.com/bihe0832/android/lib-http-common/_latestVersion)
-
-- 简介：
-
-    一款封装HttpURLConnection实现的简单的网络请求的事例，没有做任何处理，将网络请求的内容以String返回
-
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-http-common:+'
-
-![LibHttpAdvanced](https://img.shields.io/badge/AndroidAppFactory-LibHttpAdvanced-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-http-advanced/images/download.svg) ](https://bintray.com/bihe0832/android/lib-http-advanced/_latestVersion)
-
-- 简介：
-
-    一款封装HttpURLConnection实现的简单的网络请求的事例，会完成网络请求结果的解析，最终网络请求结果（Json）会被处理为对应数据类型
-
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-http-advanced:+'
-    
-    
-![LibSqlite](https://img.shields.io/badge/AndroidAppFactory-LibSqlite-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-sqlite/images/download.svg) ](https://bintray.com/bihe0832/android/lib-sqlite/_latestVersion)
-
-- 简介：
-
-    Sqlite封装，同时提供了一个key-value的基本数据库
-
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-sqlite:+'
-
-![LibGson](https://img.shields.io/badge/AndroidAppFactory-LibGson-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-gson/images/download.svg) ](https://bintray.com/bihe0832/android/lib-gson/_latestVersion)
-
-- 简介：
-
-    基于Gson封装的类型安全的转换方法
-
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-gson:+'
-
-![LibTimer](https://img.shields.io/badge/AndroidAppFactory-LibTimer-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-timer/images/download.svg) ](https://bintray.com/bihe0832/android/lib-timer/_latestVersion)
-
-- 简介：
-
-    基于Timer封装的定时器
-    
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-timer:+'
-
-![LibConfig](https://img.shields.io/badge/AndroidAppFactory-LibConfig-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-config/images/download.svg) ](https://bintray.com/bihe0832/android/lib-config/_latestVersion)
-
-- 简介：
-
-	配置管理相关，支持读取本地配置文件、支持配置保存本地
-	
-- 使用：
-		implementation 'com.bihe0832.android:lib-config:+'
-		
 ![LibToast](https://img.shields.io/badge/AndroidAppFactory-LibToast-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-toast/images/download.svg) ](https://bintray.com/bihe0832/android/lib-toast/_latestVersion)
 
 - 简介：
@@ -277,58 +402,6 @@
 
 		implementation 'com.bihe0832.android:lib-toast:+'
 		
-![LibAPK](https://img.shields.io/badge/AndroidAppFactory-LibAPK-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-utils-apk/images/download.svg) ](https://bintray.com/bihe0832/android/lib-utils-apk/_latestVersion)
-
-- 简介：
-
-    检查应用安装，获取应用数据，打开APP等发送各类Intent
-    
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-utils-apk:+'
-
-![LibTTS](https://img.shields.io/badge/AndroidAppFactory-LibTTS-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-tts/images/download.svg) ](https://bintray.com/bihe0832/android/lib-tts/_latestVersion)
-
-- 简介：
-
-    文字转语音组件的封装
-
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-tts:+'
-
-
-![LibFile](https://img.shields.io/badge/AndroidAppFactory-LibFile-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-file/images/download.svg) ](https://bintray.com/bihe0832/android/lib-file/_latestVersion)
-
-- 简介：
-
-    提供Provider的方式访问文件，以及压缩和解压缩
-
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-file:+'
-
-![LibDownloadAndInstall](https://img.shields.io/badge/AndroidAppFactory-LibDownloadAndInstall-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-download-install/images/download.svg) ](https://bintray.com/bihe0832/android/lib-download-install/_latestVersion)
-
-- 简介：
-
-    简单的下载和唤起应用安装
-
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-download-install:+'
-
-
-![LibCommonUIUtils](https://img.shields.io/badge/AndroidAppFactory-LibCommonUIUtils-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-ui-common/images/download.svg) ](https://bintray.com/bihe0832/android/lib-ui-common/_latestVersion)
-
-- 简介：
-
-    资源反射、各种格式转换、获取View的信息、屏幕长宽等信息
-
-- 使用：
-
-		implementation 'com.bihe0832.android:lib-ui-common:+'
-        
     
 ![LibImage](https://img.shields.io/badge/AndroidAppFactory-LibImage-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-image/images/download.svg) ](https://bintray.com/bihe0832/android/lib-image/_latestVersion)
 
@@ -360,4 +433,44 @@
 - 使用：
         
 		implementation 'com.bihe0832.android:lib-notification:+'
+
+![LibCustomView](https://img.shields.io/badge/AndroidAppFactory-LibCustomView-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-custom-view/images/download.svg) ](https://bintray.com/bihe0832/android/lib-custom-view/_latestVersion)
+
+- 简介：
+
+    通用的自定义UI，目前有底部按钮栏，带红点的角标TextView
+
+- 使用：
+        
+		implementation 'com.bihe0832.android:lib-custom-view:+'
+
+![LibRecycleviewExt](https://img.shields.io/badge/AndroidAppFactory-LibRecycleviewExt-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-recycleview-ext/images/download.svg) ](https://bintray.com/bihe0832/android/lib-recycleview-ext/_latestVersion)
+
+- 简介：
+
+    基于LibAdapter的列表的扩展，例如计算当前激活的元素、设置边距等
+
+- 使用：
+        
+		implementation 'com.bihe0832.android:lib-recycleview-ext:+'
+
+![LibTouchRegion](https://img.shields.io/badge/AndroidAppFactory-LibTouchRegion-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-touchregion/images/download.svg) ](https://bintray.com/bihe0832/android/lib-touchregion/_latestVersion)
+
+- 简介：
+
+    View的点击区扩大，最大可以扩大到父布局的大小
+
+- 使用：
+        
+		implementation 'com.bihe0832.android:lib-touchregion:+'
+
+![LibViewExt](https://img.shields.io/badge/AndroidAppFactory-LibViewExt-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-view-ext/images/download.svg) ](https://bintray.com/bihe0832/android/lib-view-ext/_latestVersion)
+
+- 简介：
+
+    基于kotlin的扩展函数，对于基础view的一些功能扩展，例如设置高度，获取view对应的bitmap等
+
+- 使用：
+        
+		implementation 'com.bihe0832.android:lib-view-ext:+'
 
