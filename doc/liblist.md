@@ -1,5 +1,5 @@
 
-## 组件集
+## 基础组件集
 
 
 ![LibWrapper](https://img.shields.io/badge/AndroidAppFactory-LibWrapper-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-wrapper/images/download.svg) ](https://bintray.com/bihe0832/android/lib-wrapper/_latestVersion)
@@ -252,7 +252,7 @@
 
 - 简介：
 
-    提供ZIP 文件的压缩和解压缩
+    提供ZIP 文件的压缩和解压缩，支持2G以上超大文件
 
 - 使用：
 
@@ -263,7 +263,7 @@
 
 - 简介：
 
-    简单的下载和唤起应用安装
+    简单的下载和唤起应用安装，支持OBB,Split APK等各种格式
 
 - 使用：
 
@@ -474,3 +474,23 @@
         
 		implementation 'com.bihe0832.android:lib-view-ext:+'
 
+![LibWebview](https://img.shields.io/badge/AndroidAppFactory-LibWebview-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-webview/images/download.svg) ](https://bintray.com/bihe0832/android/lib-webview/_latestVersion)
+
+- 简介：
+
+    基于腾讯X5内核的封装的内置浏览器，支持JSBridge等基础功能
+
+- 使用：
+        
+		implementation 'com.bihe0832.android:lib-webview:+'
+
+
+![LibLifecycle](https://img.shields.io/badge/AndroidAppFactory-LibLifecycle-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-lifecycle/images/download.svg) ](https://bintray.com/bihe0832/android/lib-lifecycle/_latestVersion)
+
+- 简介：
+
+    Android 应用生命周期相关的接口，包括应用前后台判断，启动次数，最后使用版本记录等
+
+- 使用：
+        
+		implementation 'com.bihe0832.android:lib-lifecycle:+'
