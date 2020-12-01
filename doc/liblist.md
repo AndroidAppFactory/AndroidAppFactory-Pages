@@ -494,3 +494,14 @@
 - 使用：
         
 		implementation 'com.bihe0832.android:lib-lifecycle:+'
+		
+		
+![LibPermission](https://img.shields.io/badge/AndroidAppFactory-LibPermission-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-permission/images/download.svg) ](https://bintray.com/bihe0832/android/lib-permission/_latestVersion)
+
+- 简介：
+
+    Android 权限管理
+
+- 使用：
+        
+		implementation 'com.bihe0832.android:lib-permission:+'
