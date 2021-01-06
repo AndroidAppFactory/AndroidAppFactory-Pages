@@ -22,23 +22,11 @@
  * [基础组件](doc/liblist.md)
  * [公共组件](doc/commlist.md)
 
-
-<!-- [组件集](doc/liblist.md)
-
-[UI相关组件]()
-
-[非UI相关组件]()
-
- * # 需要权限
- * [LibQrcode]()
- - - - -
- * # 无需权限
- * [LibConfig]()
-
- -->
+[使用事例](https://android.bihe0832.com/samples/)
 
 [gimmick:ThemeChooser](切换主题)
 [gimmick:Theme (inverse: false)](flatly)
+
 <script type="text/javascript" charset="UTF-8">
   	var _mtac = {};
   	(function() {
