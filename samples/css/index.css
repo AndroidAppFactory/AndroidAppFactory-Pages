@@ -23,9 +23,9 @@ BEM 设计模式
 	line-height: 50px;
 	font-size: 20px;
 	color: #07111b;
-	text-indent: 125px;
+	text-indent: 140px;
 	background: url('../img/logo.png') left center no-repeat;
-	background-size: 143px 60px;
+	background-size: 141px 60px;
 	position: absolute;
 	top: 50%;
 	margin-top: -19px;
@@ -96,7 +96,7 @@ BEM 设计模式
 
 /*第一屏*/
 .screen-1{
-	height: 900px;
+	height: 700px;
 	background-color: #e7e7e7;
 	position: relative;
 	overflow: hidden;
@@ -110,7 +110,7 @@ BEM 设计模式
 	font-size:36px;
 	color: #4d555d;
 	text-align: center;
-	padding-top: 132px;
+	padding-top: 5%;
 }
 
 .screen-1__subheading{
@@ -135,7 +135,7 @@ BEM 设计模式
 	position: absolute;
 	left: 50%;
 	margin-left: -687px;
-	bottom: 180px;
+	bottom: 8%;
 	z-index: 2;
 }
 .screen-1__shadow{
@@ -152,7 +152,7 @@ BEM 设计模式
 /*第二屏*/
 .screen-2{
 	background-color: #fafafa;
-	height: 800px;
+	height: 700px;
 	position: relative;
 	overflow: hidden;
 }
@@ -192,7 +192,7 @@ BEM 设计模式
 /*第三屏*/
 .screen-3{
 	background-color: red;
-	height: 800px;
+	height: 700px;
 	position: relative;
 	overflow: hidden;
 	background:url(../img/bg-screen-3.png) no-repeat center;
@@ -262,7 +262,7 @@ BEM 设计模式
 /*第四屏*/
 .screen-4{
 	background-color: #ffffff;
-	height: 800px;
+	height: 700px;
 	position: relative;
 	overflow: hidden;
 }
@@ -338,7 +338,7 @@ BEM 设计模式
 }
 /*第五屏*/
 .screen-5{
-	height: 800px;
+	height: 700px;
 	position: relative;
 	overflow: hidden;
 	background-color: #d9dde1;
@@ -371,7 +371,6 @@ BEM 设计模式
 .screen-buy{
 	height: 80px;
 	padding: 120px 0;
-
 	position: relative;
 	overflow: hidden;
 	background: #2b333b ;
@@ -379,10 +378,11 @@ BEM 设计模式
 }
 .screen-buy__button{
 	height: 80px;
-	width: 240px;
+	width: 15%;
 	text-align: center;
 	line-height: 80px;
 	font-size: 24px;
+	margin: 20px;
 	color: #fff;
 	background-color: #f01414;
 	display: inline-block;

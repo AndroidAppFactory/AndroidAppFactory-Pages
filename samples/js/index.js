@@ -133,25 +133,25 @@ window.onscroll = function () {
       switchNavItemsActive(0); // 后面添加的，不需要立刻
   }
 
-  if(top > 800*1 ){
+  if(top > 700*1 ){
       addCls( getElem('.outline'),'outline_status_in' );
   }else{
       delCls( getElem('.outline'),'outline_status_in' );
   }
 
-  if( top > ( 800*1 - 100) ){
+  if( top > ( 700*1 - 100) ){
     playScreenAnimateDone('.screen-2');
     switchNavItemsActive(1); // 后面添加的，不需要立刻
   }
-  if( top > ( 800*2 - 100) ){
+  if( top > ( 700*2 - 100) ){
     playScreenAnimateDone('.screen-3');
     switchNavItemsActive(2); 
   }
-  if( top > ( 800*3 - 100) ){
+  if( top > ( 700*3 - 100) ){
     playScreenAnimateDone('.screen-4');
     switchNavItemsActive(3); 
   }
-  if( top > ( 800*4 - 100) ){
+  if( top > ( 700*4 - 100) ){
     playScreenAnimateDone('.screen-5');
     switchNavItemsActive(4); 
   }
@@ -164,7 +164,7 @@ window.onscroll = function () {
 var setNavJump = function(i,lib){
   var elem = lib[i];
   elem.onclick = function(){
-    document.body.scrollTop = i*800 + 1;
+    document.body.scrollTop = i*700 + 1;
   }
 }
 
