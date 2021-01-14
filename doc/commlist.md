@@ -51,3 +51,23 @@
 
 		implementation 'com.bihe0832.android:common-network:+'
     
+![CommonPhotos](https://img.shields.io/badge/AndroidAppFactory-CommonPhotos-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/common-photos/images/download.svg) ](https://bintray.com/bihe0832/android/common-photos/_latestVersion)
+
+- 简介：
+
+   基于公共框架，进一步封装的拍照、相册选择、裁剪图片
+    
+- 使用：
+
+		implementation 'com.bihe0832.android:common-photos:+'
+    
+![CommonSplash](https://img.shields.io/badge/AndroidAppFactory-CommonSplash-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/common-splash/images/download.svg) ](https://bintray.com/bihe0832/android/common-splash/_latestVersion)
+
+- 简介：
+
+   基于公共框架，进一步封装的闪屏、用户隐私与协议
+    
+- 使用：
+
+		implementation 'com.bihe0832.android:common-splash:+'
+    

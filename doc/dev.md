@@ -8,10 +8,10 @@
 	
 	- 版本库：https://github.com/bihe0832/AndroidAppFactory.git
 
-3. 执行命令`./gradlew clean ` 生成组件发布命令。例如：
+3. 执行命令`./gradlew showPublishCommand` 生成组件发布命令。例如：
 
 
-		➜  AndroidAppFactory git:(master) ✗ ./gradlew clean
+		➜  AndroidAppFactory git:(master) ✗ ./gradlew showPublishCommand
 		Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=1g; support was removed in 8.0
 		
 		……	
@@ -42,10 +42,10 @@
 
 1. 完成本地开发
 
-2. 执行命令`./gradlew clean ` 生成组件发布命令。例如：
+2. 执行命令`./gradlew showPublishCommand` 生成组件发布命令。例如：
 
 	
-		➜  AndroidAppFactory git:(master) ✗ ./gradlew clean
+		➜  AndroidAppFactory git:(master) ✗ ./gradlew showPublishCommand
 		Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=1g; support was removed in 8.0
 		
 		……	
