@@ -38,7 +38,7 @@
 
 - 简介：
 
-	通用路由的annotation工具组件
+	通用路由的annotation工具组件，用于自动生成路由表
 	
 - 使用：
 
@@ -48,7 +48,7 @@
 
 - 简介：
 
-	编译时生成路由表的注解处理器
+	编译时生成路由表的注解处理器，用于自动生成路由表
 	
 - 使用：
 
@@ -57,45 +57,45 @@
 
 - 简介：
 
-	通用路由的核心库
+	通用路由的核心库，用于路由寻址、管理等
 	
 - 使用：
 
 		implementation 'com.bihe0832.android:lib-router:+'
 
-![LibAndroid](https://img.shields.io/badge/AndroidAppFactory-LibAndroid-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-android/images/download.svg) ](https://bintray.com/bihe0832/android/lib-android/_latestVersion)
+[![LibAndroid](https://img.shields.io/badge/AndroidAppFactory-LibAndroid-brightgreen)](#!doc/detail/lib-android.md)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-android/images/download.svg) ](https://bintray.com/bihe0832/android/lib-android/_latestVersion)
 
 - 简介：
 
-	一些系统接口，由于版本的原因没法使用，直接引入相关源码
-
+	一些系统接口，由于 Android 版本的原因不在可以直接使用，直接引入相关源码
+	
 - 使用：
 
 		implementation 'com.bihe0832.android:lib-android:+'
 
 
-![LibLog](https://img.shields.io/badge/AndroidAppFactory-LibLog-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-log/images/download.svg) ](https://bintray.com/bihe0832/android/lib-log/_latestVersion)
+[![LibLog](https://img.shields.io/badge/AndroidAppFactory-LibLog-brightgreen)](#!doc/detail/lib-log.md)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-log/images/download.svg) ](https://bintray.com/bihe0832/android/lib-log/_latestVersion)
 
 - 简介：
 
-	简单封装的日志工具类
+	简单封装的日志工具类，支持注册自定义日志实现
 
 - 使用：
 
 		implementation 'com.bihe0832.android:lib-log:+'
 
-![LibOS](https://img.shields.io/badge/AndroidAppFactory-LibOS-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-android-os/images/download.svg) ](https://bintray.com/bihe0832/android/lib-android-os/_latestVersion)
+[![LibOS](https://img.shields.io/badge/AndroidAppFactory-LibOS-brightgreen)](#!doc/detail/lib-android-os.md)[![Download](https://api.bintray.com/packages/bihe0832/android/lib-android-os/images/download.svg) ](https://bintray.com/bihe0832/android/lib-android-os/_latestVersion)
 
 - 简介：
 
-	系统源码直接引用
+	对于系统级别的常用功能的封装，例如获取进程名，当前系统版本，展示隐藏软键盘等
 
 - 使用：
 
 		implementation 'com.bihe0832.android:lib-android-os:+'
 
 
-![LibCommonUtils](https://img.shields.io/badge/AndroidAppFactory-LibCommonUtils-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-utils-common/images/download.svg) ](https://bintray.com/bihe0832/android/lib-utils-common/_latestVersion)
+[![LibCommonUtils](https://img.shields.io/badge/AndroidAppFactory-LibCommonUtils-brightgreen)](#!doc/detail/lib-utils-common.md)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-utils-common/images/download.svg) ](https://bintray.com/bihe0832/android/lib-utils-common/_latestVersion)
 
 - 简介：
 
@@ -105,7 +105,7 @@
 
 		implementation 'com.bihe0832.android:lib-utils-common:+'
 
-![LibThread](https://img.shields.io/badge/AndroidAppFactory-LibThread-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-thread/images/download.svg) ](https://bintray.com/bihe0832/android/lib-thread/_latestVersion)
+[![LibThread](https://img.shields.io/badge/AndroidAppFactory-LibThread-brightgreen)](#!doc/detail/lib-thread)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-thread/images/download.svg) ](https://bintray.com/bihe0832/android/lib-thread/_latestVersion)
 
 - 简介：
 
@@ -392,7 +392,7 @@
 		implementation 'com.bihe0832.android:lib-refresh:+'
         
 	
-![LibToast](https://img.shields.io/badge/AndroidAppFactory-LibToast-brightgreen)[ ![Download](https://api.bintray.com/packages/bihe0832/android/lib-toast/images/download.svg) ](https://bintray.com/bihe0832/android/lib-toast/_latestVersion)
+[![LibToast](https://img.shields.io/badge/AndroidAppFactory-LibToast-brightgreen)](#!doc/detail/lib-toast.md)[![Download](https://api.bintray.com/packages/bihe0832/android/lib-toast/images/download.svg) ](https://bintray.com/bihe0832/android/lib-toast/_latestVersion)
 
 - 简介：
 
