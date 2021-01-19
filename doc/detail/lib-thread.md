@@ -24,4 +24,4 @@
 
     - 提供了快速在新线程、主线程立刻或者延时执行的方法
 
-        - 提供了不同优先级的HadlerThread，对外暴露Looper
+    - 提供了不同优先级的HadlerThread，对外暴露Looper

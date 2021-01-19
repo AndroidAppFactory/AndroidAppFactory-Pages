@@ -22,13 +22,13 @@
 
 
 - AXMLPrinter2 系列：
-
-    对官方工具AXMLPrinter2针对不同api下AndroidMainfest编码不同导致解析异常的优化
+  
+  - 对官方工具AXMLPrinter2针对不同api下AndroidMainfest编码不同导致解析异常的优化
     
 - SystemProperties：
 
-    获取 SystemProperties 的 native接口调用
+  - 获取 SystemProperties 的 native接口调用
 
 - Process：
-
-    系统的 Process 类
+  
+  - 系统的 Process 类
