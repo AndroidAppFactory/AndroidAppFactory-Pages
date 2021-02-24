@@ -36,15 +36,11 @@ var screenAnimateElements = {
   '.screen-1' : [
     '.screen-1__heading',
     '.screen-1__phone',
-    // '.screen-1__shadow',
   ],
   '.screen-2' : [
     '.screen-2__heading',
     '.screen-2__subheading',
     '.screen-2__phone',
-    // '.screen-2__point_i_1',
-    // '.screen-2__point_i_2',
-    // '.screen-2__point_i_3',
   ],
   '.screen-3' : [
     '.screen-3__heading',
@@ -54,7 +50,9 @@ var screenAnimateElements = {
   ],
   '.screen-4' : [
     '.screen-4__heading',
-    // '.screen-4__subheading',
+    '.screen-4__type',
+    '.screen-4__subheading',
+    '.screen-4__phone',
     // '.screen-4__type__item_i_1',
     // '.screen-4__type__item_i_2',
     // '.screen-4__type__item_i_3',
