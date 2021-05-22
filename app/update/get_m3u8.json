@@ -1,11 +1,11 @@
 {
-  "showRedMaxVersionCode": 0,
-  "needUpdateMinVersionCode": 0,
+  "showRedMaxVersionCode": 73,
+  "needUpdateMinVersionCode": 73,
   "forceUpdateMinVersionCode": 0,
   "forceUpdateList": " ",
   "needUpdateList": " ",
   "newVersionName": "1.1.1",
-  "newVersionCode": 52,
+  "newVersionCode": 74,
   "newVersionInfo": "1. 支持记录过往下载历史 <BR> 2. 优化下载及使用用户体验",
   "newVersionMD5": "732312aafd8001a08715dff95dfb3d82",
   "newVersionURL": "https://cdn.bihe0832.com/app/release/ZM3U8_official.apk"
