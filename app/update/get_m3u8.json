@@ -4,9 +4,9 @@
   "forceUpdateMinVersionCode": 0,
   "forceUpdateList": " ",
   "needUpdateList": " ",
-  "newVersionName": "1.0.0",
+  "newVersionName": "1.1.1",
   "newVersionCode": 52,
-  "newVersionInfo": "1. 完成基本功能，支持M3U8格式下载 <BR> 2. 支持解密并合并AES加密的视频片段",
-  "newVersionMD5": "d38d1b02d9525a9fd91537b93976489a",
+  "newVersionInfo": "1. 支持记录过往下载历史 <BR> 2. 优化下载及使用用户体验",
+  "newVersionMD5": "732312aafd8001a08715dff95dfb3d82",
   "newVersionURL": "https://cdn.bihe0832.com/app/release/ZM3U8_official.apk"
 }
