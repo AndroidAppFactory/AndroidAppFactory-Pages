@@ -1,12 +1,12 @@
 {
-  "showRedMaxVersionCode": 90,
-  "needUpdateMinVersionCode": 90,
+  "showRedMaxVersionCode": 91,
+  "needUpdateMinVersionCode": 91,
   "forceUpdateMinVersionCode": 0,
   "forceUpdateList": " ",
   "needUpdateList": " ",
   "newVersionName": "1.1.2",
-  "newVersionCode": 91,
+  "newVersionCode": 92,
   "newVersionInfo": "1. 修复下载期间偶现Crash <BR> 2. 优化下载及使用用户体验",
-  "newVersionMD5": "0d505da7450147aa4a3734faf3858629",
+  "newVersionMD5": "2b2075730fc0ab0ca92c1bf88584d992",
   "newVersionURL": "https://cdn.bihe0832.com/app/release/ZM3U8_official.apk"
 }
