@@ -6,7 +6,7 @@
   "needUpdateList": " ",
   "newVersionName": "1.0.1",
   "newVersionCode": 130,
-  "newVersionInfo": "1. 修复输入法设置后自动检测没生效的异常<BR> 2.暂时关闭正式版本输入内容自动记录",
+  "newVersionInfo": "1. 修复输入法设置后自动检测没生效的异常<BR> 2. 暂时关闭正式版本输入内容自动记录",
   "newVersionMD5": "a637d25841b954475ace45fc095a789e",
   "newVersionURL": "https://android.bihe0832.com/app/release/ZINPUT_official.apk"
 }
