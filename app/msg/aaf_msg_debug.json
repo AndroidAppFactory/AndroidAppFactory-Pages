@@ -1,0 +1,53 @@
+[
+  {
+    "id": "1",
+    "type": "1",
+    "title": "置顶文本公告带跳转带通知栏通知",
+    "content": "文本公告带跳转的内容并且置顶，点击前往跳转到登录界面",
+    "should_top": "1",
+    "expire_date": "202511020000",
+    "action": "zixie://about",
+    "isNotify": "1",
+    "showFace": 2,
+    "create_date": "201910020600"
+  },
+  {
+    "id": "2",
+    "type": "1",
+    "title": "不置顶文本公告不带跳转不带通知栏通知",
+    "content": "文本公告不带跳转的内容并且不置顶",
+    "expire_date": "202511020000",
+    "create_date": "201910020600"
+  },
+  {
+    "id": "3",
+    "type": "2",
+    "title": "置顶图片公告带跳转带通知栏通知",
+    "content": "https://blog.bihe0832.com/public/photo/2018kagoshima/66fba7bb.jpg",
+    "should_top": "1",
+    "expire_date": "202511020000",
+    "action": "zixie://about",
+    "isNotify": "1",
+    "notifyDesc": "快快体验吧",
+    "create_date": "201910020600"
+  },
+  {
+    "id": "4",
+    "type": "2",
+    "title": "不置顶图片公告不带跳转",
+    "content": "https://blog.bihe0832.com/public/photo/2018kagoshima/0358b747.jpg",
+    "expire_date": "202511020000",
+    "create_date": "201910020600"
+  },
+  {
+    "id": "7",
+    "type": "4",
+    "title": "置顶网页公告带通知栏通知",
+    "content": "https://blog.bihe0832.com",
+    "should_top": "1",
+    "expire_date": "202511020000",
+    "isNotify": "1",
+    "notifyDesc": "置顶网页公告带通知栏通知内容",
+    "create_date": "201910020600"
+  }
+]
