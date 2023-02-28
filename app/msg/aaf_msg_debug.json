@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "type": "1",
+    "type": "text",
     "title": "置顶文本公告带跳转带通知栏通知",
     "content": "文本公告带跳转的内容并且置顶，点击前往跳转到登录界面",
     "should_top": "1",
@@ -13,7 +13,7 @@
   },
   {
     "id": "2",
-    "type": "1",
+    "type": "text",
     "title": "不置顶文本公告不带跳转不带通知栏通知",
     "content": "文本公告不带跳转的内容并且不置顶",
     "expire_date": "202511020000",
@@ -21,7 +21,7 @@
   },
   {
     "id": "3",
-    "type": "2",
+    "type": "image",
     "title": "置顶图片公告带跳转带通知栏通知",
     "content": "https://blog.bihe0832.com/public/photo/2018kagoshima/66fba7bb.jpg",
     "should_top": "1",
@@ -33,7 +33,7 @@
   },
   {
     "id": "4",
-    "type": "2",
+    "type": "image",
     "title": "不置顶图片公告不带跳转",
     "content": "https://blog.bihe0832.com/public/photo/2018kagoshima/0358b747.jpg",
     "expire_date": "202511020000",
@@ -41,9 +41,21 @@
   },
   {
     "id": "7",
-    "type": "4",
+    "type": "web",
     "title": "置顶网页公告带通知栏通知",
     "content": "https://blog.bihe0832.com",
+    "should_top": "1",
+    "expire_date": "202511020000",
+    "isNotify": "1",
+    "notifyDesc": "置顶网页公告带通知栏通知内容",
+    "create_date": "201910020600"
+  },
+  {
+    "id": "7",
+    "type": "apk",
+    "title": "置顶应用下载公告带通知栏通知",
+    "content": "1. 修复下载期间偶现Crash，提升稳定性 <BR> 2. 优化下载及使用用户体验",
+    "action":"https://android.bihe0832.com/app/release/ZAPK_official.apk",
     "should_top": "1",
     "expire_date": "202511020000",
     "isNotify": "1",
