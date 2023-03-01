@@ -1,12 +1,12 @@
 {
-  "showRedMaxVersionCode": 130,
-  "needUpdateMinVersionCode": 130,
+  "showRedMaxVersionCode": 135,
+  "needUpdateMinVersionCode": 135,
   "forceUpdateMinVersionCode": 0,
   "forceUpdateList": " ",
   "needUpdateList": " ",
-  "newVersionName": "1.0.1",
-  "newVersionCode": 130,
-  "newVersionInfo": "1. 修复输入法设置后自动检测没生效的异常<BR> 2. 暂时关闭正式版本输入内容自动记录",
-  "newVersionMD5": "4d130728e1b16d9d2703f7ab7f9fa07d",
+  "newVersionName": "1.0.2",
+  "newVersionCode": 136,
+  "newVersionInfo": "1. 添加邮件通知<BR> 2. 增加Base64输入支持，可以输入更复杂的内容",
+  "newVersionMD5": "cf1a1eb877a78612d023ee0df687c9a4",
   "newVersionURL": "https://android.bihe0832.com/app/release/ZINPUT_official.apk"
 }
