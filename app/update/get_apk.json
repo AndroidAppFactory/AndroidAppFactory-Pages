@@ -1,12 +1,12 @@
 {
-  "showRedMaxVersionCode": 40,
-  "needUpdateMinVersionCode": 40,
+  "showRedMaxVersionCode": 137,
+  "needUpdateMinVersionCode": 137,
   "forceUpdateMinVersionCode": 0,
   "forceUpdateList": " ",
   "needUpdateList": " ",
-  "newVersionName": "1.2.0",
-  "newVersionCode": 41,
-  "newVersionInfo": "1. 添加隐私及权限授权",
-  "newVersionMD5": "cac34effb15b751d8cd887c7ba893388",
+  "newVersionName": "1.3.0",
+  "newVersionCode": 138,
+  "newVersionInfo": "1. 添加邮件通知",
+  "newVersionMD5": "77a5b6d2b821c12ce79c0932047d18fe",
   "newVersionURL": "https://android.bihe0832.com/app/release/ZAPK_official.apk"
 }

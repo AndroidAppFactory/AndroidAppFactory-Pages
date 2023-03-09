@@ -1,12 +1,12 @@
 {
-  "showRedMaxVersionCode": 80,
-  "needUpdateMinVersionCode": 80,
+  "showRedMaxVersionCode": 137,
+  "needUpdateMinVersionCode": 137,
   "forceUpdateMinVersionCode": 0,
   "forceUpdateList": " ",
   "needUpdateList": " ",
-  "newVersionName": "1.2.0",
-  "newVersionCode": 81,
-  "newVersionInfo": "1. 增加对网络图片的支持",
-  "newVersionMD5": "144c7442effafbb89675e2130a4b3e05",
+  "newVersionName": "1.3.0",
+  "newVersionCode": 138,
+  "newVersionInfo": "1. 添加邮件通知",
+  "newVersionMD5": "d64df82100350025fba9f3675876b8cf",
   "newVersionURL": "https://android.bihe0832.com/app/release/ZPUZZLE_official.apk"
 }
