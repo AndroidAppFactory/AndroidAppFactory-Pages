@@ -1,12 +1,12 @@
 {
-  "showRedMaxVersionCode": 143,
-  "needUpdateMinVersionCode": 143,
+  "showRedMaxVersionCode": 146,
+  "needUpdateMinVersionCode": 146,
   "forceUpdateMinVersionCode": 0,
   "forceUpdateList": " ",
   "needUpdateList": " ",
-  "newVersionName": "1.3.2",
-  "newVersionCode": 144,
-  "newVersionInfo": "1. 优化特殊文本输入",
-  "newVersionMD5": "d0326c879d05cc012e6ac029c5afe7f5",
+  "newVersionName": "1.3.3",
+  "newVersionCode": 147,
+  "newVersionInfo": "1. 修复Bug<BR>2. 增加侧边栏",
+  "newVersionMD5": "a42587354599743846c161478d4fda14",
   "newVersionURL": "https://android.bihe0832.com/app/release/ZINPUT_official.apk"
 }

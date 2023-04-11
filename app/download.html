@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <link rel = "Shortcut Icon" href="https://cdn.bihe0832.com/res/images/zixie_32.ico" />
+  <link rel="Shortcut Icon" href="https://cdn.bihe0832.com/res/images/zixie_32.ico" />
   <title>AndroidAppFactory —— 基于AAF的开发实践</title>
   <meta name="author" CONTENT="子勰(bihe0832), code@bihe0832.com" />
   <meta name="keywords" content="子勰,bihe0832" />
@@ -19,43 +20,43 @@
   <meta property="og:url" content="https://android.bihe0832.com/" />
   <meta property="og:site_name" content="基于AAF的开发实践" />
 
-    <script type="text/javascript" src="https://cdn.bihe0832.com/js/brower.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="https://cdn.bihe0832.com/js/brower.js" charset="UTF-8"></script>
 
-    <script type="text/javascript"> 
-   var system ={
-       win : false,
-       mac : false,
-       xll : false
-     };
-     var p = navigator.platform;
-     system.win = p.indexOf("Win") == 0;
-     system.mac = p.indexOf("Mac") == 0;
-     system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
-     if(!(system.win||system.mac||system.xll)){
-        // window.location.href="./jump.html";
-     }
-    </script>
-<style type="text/css">
-    .color-white{
-        color:#eee;
-      }
-      .hover-white:hover{
-        color:#ccc;
-        font-size: 105%;
-      }
-      .download_qrcode{
-        width: 120px;
-      }
+  <script type="text/javascript">
+    var system = {
+      win: false,
+      mac: false,
+      xll: false
+    };
+    var p = navigator.platform;
+    system.win = p.indexOf("Win") == 0;
+    system.mac = p.indexOf("Mac") == 0;
+    system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+    if (!(system.win || system.mac || system.xll)) {
+      // window.location.href="./jump.html";
+    }
+  </script>
+  <style type="text/css">
+    .color-white {
+      color: #eee;
+    }
 
-      .download_qrcode_border{
-        border: 8px solid #eee;
-      }
+    .hover-white:hover {
+      color: #ccc;
+      font-size: 105%;
+    }
 
-      
+    .download_qrcode {
+      width: 120px;
+    }
 
-</style>
+    .download_qrcode_border {
+      border: 8px solid #eee;
+    }
 
-	<!--[if lt IE 9]>
+  </style>
+
+  <!--[if lt IE 9]>
 	  <style type="text/css">
 	    .services{
 	      display:none;
@@ -69,7 +70,7 @@
 	    }
 	    </style>
 	<![endif]-->
-	<!--[if lte IE 7]>
+  <!--[if lte IE 7]>
 	  <style type="text/css">
 		  .vert-text{
 		      margin-top: 15%;
@@ -85,13 +86,14 @@
 		}
 	  </style>
 	<![endif]-->
-    <script src="https://cdn.bihe0832.com/js/jquery-1.9.1.min.js"></script>
+  <script src="https://cdn.bihe0832.com/js/jquery-1.9.1.min.js"></script>
 
 </head>
+
 <body>
-    <div id="top" class="header">
-      <div class="vert-text">
-       <div class="container">
+  <div id="top" class="header">
+    <div class="vert-text">
+      <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 text-center color-white">
             <h2>基于AAF开发的应用</h2>
@@ -100,71 +102,88 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 text-center">
-            <div class="service-item  color-white" >
-              <img class="download_qrcode download_qrcode_border" alt="扫描下载应用信息获取" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://android.bihe0832.com/app/release/ZAPK_official.apk">
+          <div class="col-md-3 text-center">
+            <div class="service-item  color-white">
+              <img class="download_qrcode download_qrcode_border" alt="扫描下载应用信息获取"
+                src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://android.bihe0832.com/app/release/ZAPK_official.apk">
               <h3>应用信息查看工具</h3>
-              <h4><a class="color-white hover-white" href="https://android.bihe0832.com/app/release/ZAPK_official.apk">点击下载到本地</a></h4>
+              <h4><a class="color-white hover-white"
+                  href="https://android.bihe0832.com/app/release/ZAPK_official.apk">点击下载到本地</a></h4>
             </div>
           </div>
-          <div class="col-md-4 text-center" >
+          <div class="col-md-3 text-center">
             <div class="service-item color-white">
-              <img class="download_qrcode download_qrcode_border" alt="扫描下载来拼图" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://android.bihe0832.com/app/release/ZINPUT_official.apk">
+              <img class="download_qrcode download_qrcode_border" alt="扫描下载来拼图"
+                src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://android.bihe0832.com/app/release/ZINPUT_official.apk">
               <h3>ADB 快捷输入</h3>
-              <h4><a class="color-white hover-white" href="https://android.bihe0832.com/app/release/ZINPUT_official.apk">点击下载到本地</a></h4>
+              <h4><a class="color-white hover-white"
+                  href="https://android.bihe0832.com/app/release/ZINPUT_official.apk">点击下载到本地</a></h4>
             </div>
           </div>
-          <div class="col-md-4 text-center" >
+          <div class="col-md-3 text-center">
             <div class="service-item color-white">
-              <img class="download_qrcode download_qrcode_border" alt="扫描下载来拼图" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://android.bihe0832.com/app/release/ZPUZZLE_official.apk">
+              <img class="download_qrcode download_qrcode_border" alt="扫描下载来拼图"
+                src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://android.bihe0832.com/app/release/ZPUZZLE_official.apk">
               <h3>来拼图</h3>
-              <h4><a class="color-white hover-white" href="https://android.bihe0832.com/app/release/ZPUZZLE_official.apk">点击下载到本地</a></h4>
+              <h4><a class="color-white hover-white"
+                  href="https://android.bihe0832.com/app/release/ZPUZZLE_official.apk">点击下载到本地</a></h4>
             </div>
           </div>
-          <div class="col-md-4 text-center">
+          <div class="col-md-3 text-center">
             <div class="service-item color-white">
-              <img class="download_qrcode download_qrcode_border" alt="扫描下载M3U8视频下载器" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://android.bihe0832.com/app/release/ZM3U8_official.apk">
+              <img class="download_qrcode download_qrcode_border" alt="扫描下载M3U8视频下载器"
+                src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://android.bihe0832.com/app/release/ZM3U8_official.apk">
               <h3>M3U8视频下载器</h3>
-              <h4><a class="color-white hover-white" href="https://android.bihe0832.com/app/release/ZM3U8_official.apk">点击下载到本地</a></h4>
+              <h4><a class="color-white hover-white"
+                  href="https://android.bihe0832.com/app/release/ZM3U8_official.apk">点击下载到本地</a></h4>
             </div>
           </div>
-        
-      </div>
-      </div>
-        </div>
-    
-    </div>
-    <!-- /Full Page Image Header Area -->
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center">
-            <ul class="list-inline">
-                <li><a href="https://android.bihe0832.com/samples/"  target="_blank">事例首页</a></li>
-                <li><a href="https://github.com/bihe0832/AndroidAppFactory-Sample"  target="_blank">查看源码</a></li>
-                <li><a href="https://android.bihe0832.com/" target="_blank">框架文档</a></li>
-                <li><a href="https://github.com/bihe0832/AndroidAppFactory"  target="_blank">框架源码</a></li>
-                <li><a href="https://blog.bihe0832.com/repositories.html"  target="_blank">关于作者</a></li>
-            </ul>
-            <hr>
-            <span>
-              Copyright &copy; 子勰  All Rights Reserved
-            </span>
+          <div class="col-md-3 text-center">
+            <div class="service-item color-white">
+              <img class="download_qrcode download_qrcode_border" alt="扫描下载摇吧"
+                src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://android.bihe0832.com/app/release/ZSHAKE_official.apk">
+              <h3>摇吧</h3>
+              <h4><a class="color-white hover-white"
+                  href="https://android.bihe0832.com/app/release/ZSHAKE_official.apk">点击下载到本地</a></h4>
+            </div>
           </div>
+
         </div>
       </div>
-    </footer>
-    <!-- /Footer -->
+    </div>
 
-   <!-- Bootstrap core CSS -->
-   <link href="https://cdn.bihe0832.com/css/bootstrap.min.css" rel="stylesheet">
-   <!-- Add custom CSS here -->
-   <link href="./css/style.min.css" rel="stylesheet">
-    
-   <script type="text/javascript" charset="UTF-8">
+  </div>
+  <!-- /Full Page Image Header Area -->
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center">
+          <ul class="list-inline">
+            <li><a href="https://android.bihe0832.com/samples/" target="_blank">事例首页</a></li>
+            <li><a href="https://github.com/bihe0832/AndroidAppFactory-Sample" target="_blank">查看源码</a></li>
+            <li><a href="https://android.bihe0832.com/" target="_blank">框架文档</a></li>
+            <li><a href="https://github.com/bihe0832/AndroidAppFactory" target="_blank">框架源码</a></li>
+            <li><a href="https://blog.bihe0832.com/repositories.html" target="_blank">关于作者</a></li>
+          </ul>
+          <hr>
+          <span>
+            Copyright &copy; 子勰 All Rights Reserved
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- /Footer -->
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.bihe0832.com/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Add custom CSS here -->
+  <link href="./css/style.min.css" rel="stylesheet">
+
+  <script type="text/javascript" charset="UTF-8">
     var _mtac = {};
-    (function() {
+    (function () {
       var mta = document.createElement("script");
       mta.src = "https://pingjs.qq.com/h5/stats.js?v2.0.4";
       mta.setAttribute("name", "MTAH5");
@@ -173,5 +192,6 @@
       s.parentNode.insertBefore(mta, s);
     })();
   </script>
-  </body>
+</body>
+
 </html>
