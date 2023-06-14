@@ -1,12 +1,12 @@
 {
-  "showRedMaxVersionCode": 146,
-  "needUpdateMinVersionCode": 146,
+  "showRedMaxVersionCode": 163,
+  "needUpdateMinVersionCode": 163,
   "forceUpdateMinVersionCode": 0,
   "forceUpdateList": " ",
   "needUpdateList": " ",
-  "newVersionName": "1.3.3",
-  "newVersionCode": 147,
-  "newVersionInfo": "1. 修复Bug<BR>2. 增加侧边栏",
-  "newVersionMD5": "3cd22cffd31ae800960c3c028092f6bb",
+  "newVersionName": "1.3.4",
+  "newVersionCode": 164,
+  "newVersionInfo": "1. 增加分享 APK 能力<BR>2. 支持自定义签名计算算法",
+  "newVersionMD5": "9602f964bf96e2824862b5ed0ab92420",
   "newVersionURL": "https://android.bihe0832.com/app/release/ZAPK_official.apk"
 }
