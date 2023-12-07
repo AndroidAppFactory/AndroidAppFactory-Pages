@@ -1,12 +1,12 @@
 {
-  "showRedMaxVersionCode": 177,
-  "needUpdateMinVersionCode": 177,
+  "showRedMaxVersionCode": 178,
+  "needUpdateMinVersionCode": 178,
   "forceUpdateMinVersionCode": 100,
   "forceUpdateList": " ",
   "needUpdateList": " ",
   "newVersionName": "1.3.6",
-  "newVersionCode": 178,
+  "newVersionCode": 179,
   "newVersionInfo": "1. 增加对应用公钥获取的支持",
-  "newVersionMD5": "10dee00bf7073773877dd0c47a5a7a9f",
+  "newVersionMD5": "f784e035d324654dd2e1ac2a58249be9",
   "newVersionURL": "https://android.bihe0832.com/app/release/ZAPK_official.apk"
 }
