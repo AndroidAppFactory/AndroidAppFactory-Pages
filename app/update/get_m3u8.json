@@ -1,12 +1,12 @@
 {
-  "showRedMaxVersionCode": 146,
-  "needUpdateMinVersionCode": 146,
-  "forceUpdateMinVersionCode": 0,
+  "showRedMaxVersionCode": 181,
+  "needUpdateMinVersionCode": 181,
+  "forceUpdateMinVersionCode": 100,
   "forceUpdateList": " ",
   "needUpdateList": " ",
-  "newVersionName": "1.3.3",
-  "newVersionCode": 147,
-  "newVersionInfo": "1. 修复Bug<BR>2. 增加侧边栏",
-  "newVersionMD5": "612769f6b2f33772bc760ffc544373a6",
+  "newVersionName": "1.3.7",
+  "newVersionCode": 182,
+  "newVersionInfo": "1. 修复直接跳转下载记录消失的Bug",
+  "newVersionMD5": "6e24f4818cbfa44db2a292ecb0759849",
   "newVersionURL": "https://android.bihe0832.com/app/release/ZM3U8_official.apk"
 }
